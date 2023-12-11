@@ -1,0 +1,38 @@
+.form {
+    gap: 0.8rem;
+    color: white;
+    display: flex;
+    flex-direction: column;
+    background-color: rgb(21,21,21);
+    font-family: "Public Sans", sans-serif;
+}
+
+.divider {
+    border: 2px solid gray
+}
+
+.input {
+    padding: 10px;
+    background-color: rgb(41,41,41);
+    outline: none;
+    border: 1px solid #eee;
+    border-radius: 8px;
+    color: white;
+}
+
+.title {
+    padding: 10px;
+    font-size: 22px;
+    font-weight: bold;
+    text-align: center;;
+}
+
+.button {
+    padding: 10px 20px;
+    border-radius: 8px;
+    color: white;
+    background: var(--orange);
+    border: none;
+    outline: none;
+
+}
